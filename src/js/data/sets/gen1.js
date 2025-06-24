@@ -1,4 +1,5 @@
 var SETDEX_RBY = {
+	/* 
   "Bulbasaur": {
     "LC Sleeper": {"level":5,"moves":["Sleep Powder","Razor Leaf","Body Slam","Swords Dance"]}
   },
@@ -226,12 +227,19 @@ var SETDEX_RBY = {
     "NU Amnesia": {"moves":["Hypnosis","Amnesia","Surf","Blizzard"]},
     "NU Bulky Sleeper": {"moves":["Hypnosis","Surf","Blizzard","Seismic Toss"]},
     "1v1 Mixed Attacker": {"moves":["Blizzard","Amnesia","Submission","Rest"]}
-  },
-  "Abra": {
-    "NU Special Attacker": {"moves":["Psychic","Thunder Wave","Seismic Toss","Counter"]},
-    "PU Special Attacker": {"moves":["Psychic","Seismic Toss","Thunder Wave","Substitute"]},
-    "LC Mixed Attacker": {"level":5,"moves":["Psychic","Body Slam","Thunder Wave","Substitute"]}
-  },
+  },*/
+	Abra: {
+		"NU Special Attacker": {
+			moves: ["Psychic", "Thunder Wave", "Seismic Toss", "Counter"],
+		},
+		"PU Special Attacker": {
+			moves: ["Psychic", "Seismic Toss", "Thunder Wave", "Substitute"],
+		},
+		"LC Mixed Attacker": {
+			level: 5,
+			moves: ["Psychic", "Body Slam", "Thunder Wave", "Substitute"],
+		},
+	} /*
   "Kadabra": {
     "UU Standard": {"moves":["Psychic","Thunder Wave","Seismic Toss","Recover"]}
   },
@@ -660,5 +668,5 @@ var SETDEX_RBY = {
     "Ubers GGMew (Reflect Sweeper)": {"moves":["Reflect","Swords Dance","Body Slam","Soft-Boiled"]},
     "Ubers Explosive Lure": {"moves":["Thunder Wave","Swords Dance","Body Slam","Explosion"]},
     "Ubers Lutrew / PaRaSiTe Mew (Transform)": {"moves":["Transform","Thunder Wave","Soft-Boiled","Reflect"]}
-  }
+  } */,
 };

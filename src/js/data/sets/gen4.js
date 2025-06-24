@@ -1,5 +1,5 @@
 var SETDEX_DPP = {
-  "Milotic": {
+	/*  "Milotic": {
     "OU Physically Defensive": {"ability":"Marvel Scale","item":"Leftovers","nature":"Bold","evs":{"hp":248,"df":252,"sd":8},"moves":["Surf","Ice Beam","Haze","Recover"]},
     "UU Physically Defensive": {"ability":"Marvel Scale","item":"Leftovers","nature":"Bold","ivs":{"at":30,"sa":30},"evs":{"hp":248,"df":252,"sp":8},"moves":["Surf","Hidden Power Grass","Recover","Ice Beam"]},
     "UU RestTalk": {"ability":"Marvel Scale","item":"Leftovers","nature":"Calm","evs":{"hp":252,"df":200,"sd":56},"moves":["Rest","Sleep Talk","Surf","Ice Beam"]},
@@ -2344,13 +2344,37 @@ var SETDEX_DPP = {
     "UU Choice Scarf": {"ability":"Snow Warning","item":"Choice Scarf","nature":"Hasty","ivs":{"sa":30,"sd":30},"evs":{"hp":8,"sa":252,"sd":4,"sp":244},"moves":["Blizzard","Hidden Power Ground","Ice Shard","Energy Ball"]},
     "LC Physically Offensive": {"level":5,"ability":"Snow Warning","item":"Oran Berry","nature":"Adamant","evs":{"hp":36,"at":180,"df":36,"sd":36,"sp":196},"moves":["Swords Dance","Ice Shard","Wood Hammer","Protect"]},
     "LC Choice Scarf": {"level":5,"ability":"Snow Warning","item":"Choice Scarf","nature":"Timid","ivs":{"at":2,"sa":30,"sp":30},"evs":{"hp":36,"df":36,"sa":184,"sd":36,"sp":200},"moves":["Blizzard","Energy Ball","Hidden Power Fire","Water Pulse"]}
-  },
-  "Abomasnow": {
-    "OU Leech Seed": {"ability":"Snow Warning","item":"Leftovers","nature":"Adamant","evs":{"hp":252,"at":252,"sd":4},"moves":["Leech Seed","Protect","Wood Hammer","Ice Shard"]},
-    "OU All-out Attacker": {"ability":"Snow Warning","item":"Leftovers","nature":"Lonely","evs":{"at":252,"sa":172,"sp":84},"moves":["Wood Hammer","Blizzard","Ice Shard","Earthquake"]},
-    "Doubles OU Showdown Usage": {"ability":"Snow Warning","item":"Choice Scarf","nature":"Hasty","evs":{"hp":28,"sa":252,"sp":228},"moves":["Blizzard","Wood Hammer","Protect","Leech Seed"]},
-    "Anything Goes Showdown Usage": {"ability":"Snow Warning","item":"Leftovers","nature":"Sassy","evs":{"hp":252,"at":20,"sd":236},"moves":["Leech Seed","Grass Knot","Ice Shard","Protect"]}
-  },
+  },*/
+	Abomasnow: {
+		"OU Leech Seed": {
+			ability: "Snow Warning",
+			item: "Leftovers",
+			nature: "Adamant",
+			evs: { hp: 252, at: 252, sd: 4 },
+			moves: ["Leech Seed", "Protect", "Wood Hammer", "Ice Shard"],
+		},
+		"OU All-out Attacker": {
+			ability: "Snow Warning",
+			item: "Leftovers",
+			nature: "Lonely",
+			evs: { at: 252, sa: 172, sp: 84 },
+			moves: ["Wood Hammer", "Blizzard", "Ice Shard", "Earthquake"],
+		},
+		"Doubles OU Showdown Usage": {
+			ability: "Snow Warning",
+			item: "Choice Scarf",
+			nature: "Hasty",
+			evs: { hp: 28, sa: 252, sp: 228 },
+			moves: ["Blizzard", "Wood Hammer", "Protect", "Leech Seed"],
+		},
+		"Anything Goes Showdown Usage": {
+			ability: "Snow Warning",
+			item: "Leftovers",
+			nature: "Sassy",
+			evs: { hp: 252, at: 20, sd: 236 },
+			moves: ["Leech Seed", "Grass Knot", "Ice Shard", "Protect"],
+		},
+	} /*
   "Weavile": {
     "OU Standard": {"ability":"Pressure","item":"Expert Belt","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Ice Shard","Low Kick","Night Slash"]}
   },
@@ -2530,5 +2554,5 @@ var SETDEX_DPP = {
   },
   "Wartortle": {
     "NU Showdown Usage": {"ability":"Torrent","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sa":4},"moves":["Rapid Spin","Surf","Haze","Refresh"]}
-  }
+  } */,
 };

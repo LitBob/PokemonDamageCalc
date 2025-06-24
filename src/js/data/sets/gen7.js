@@ -1,5 +1,5 @@
 var SETDEX_SM = {
-  "Koffing": {
+	/*  "Koffing": {
     "LC Defensive": {"level":5,"ability":"Levitate","item":"Eviolite","nature":"Bold","evs":{"hp":36,"df":236,"sd":236},"moves":["Will-O-Wisp","Pain Split","Sludge Bomb","Fire Blast"]}
   },
   "Weezing": {
@@ -2865,19 +2865,81 @@ var SETDEX_SM = {
   "Snover": {
     "LC Choice Scarf": {"level":5,"ability":"Snow Warning","item":"Choice Scarf","nature":"Naive","ivs":{"sa":30,"sd":30},"evs":{"at":104,"sa":184,"sp":200},"moves":["Blizzard","Giga Drain","Ice Shard","Hidden Power Ground"]},
     "LC Balanced Pivot": {"level":5,"ability":"Snow Warning","item":"Eviolite","nature":"Quiet","ivs":{"sa":30,"sd":30},"evs":{"hp":36,"at":104,"df":40,"sa":184,"sd":120},"moves":["Blizzard","Giga Drain","Ice Shard","Hidden Power Ground"]}
-  },
-  "Abomasnow": {
-    "RU Swords Dance": {"ability":"Soundproof","item":"Abomasite","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
-    "RU Mixed Attacker": {"ability":"Soundproof","item":"Abomasite","nature":"Rash","evs":{"at":92,"sa":252,"sp":164},"moves":["Blizzard","Wood Hammer","Ice Shard","Focus Blast"]},
-    "NU Mixed Attacker": {"ability":"Soundproof","item":"Abomasite","nature":"Modest","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blizzard","Giga Drain","Focus Blast","Substitute"]},
-    "NU Swords Dance": {"ability":"Soundproof","item":"Abomasite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
-    "PU Mixed Wallbreaker": {"ability":"Snow Warning","item":"Life Orb","nature":"Hasty","evs":{"at":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Earthquake","Ice Shard"]},
-    "PU Choice Scarf": {"ability":"Snow Warning","item":"Choice Scarf","nature":"Naive","evs":{"at":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Focus Blast","Earthquake"]},
-    "PU Swords Dance": {"ability":"Snow Warning","item":"Grassium Z","nature":"Jolly","evs":{"at":252,"sa":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
-    "Doubles OU Trick Room Attacker": {"ability":"Snow Warning","item":"Abomasite","nature":"Quiet","ivs":{"sp":0},"evs":{"hp":252,"at":4,"sa":252},"moves":["Blizzard","Giga Drain","Ice Shard","Protect"]},
-    "1v1 4 Attacks": {"ability":"Snow Warning","item":"Abomasite","nature":"Quiet","evs":{"hp":248,"df":12,"sa":156,"sd":92},"moves":["Grass Knot","Blizzard","Ice Shard","Earthquake"]},
-    "Battle Spot Doubles Showdown Usage": {"level":50,"ability":"Snow Warning","item":"Abomasite","nature":"Quiet","evs":{"hp":204,"df":52,"sa":252},"moves":["Blizzard","Energy Ball","Ice Shard","Shadow Ball"]}
-  },
+  },*/
+	Abomasnow: {
+		"RU Swords Dance": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Adamant",
+			evs: { at: 252, df: 4, sp: 252 },
+			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+		"RU Mixed Attacker": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Rash",
+			evs: { at: 92, sa: 252, sp: 164 },
+			moves: ["Blizzard", "Wood Hammer", "Ice Shard", "Focus Blast"],
+		},
+		"NU Mixed Attacker": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Modest",
+			evs: { sa: 252, sd: 4, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Focus Blast", "Substitute"],
+		},
+		"NU Swords Dance": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Jolly",
+			evs: { at: 252, sd: 4, sp: 252 },
+			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+		"PU Mixed Wallbreaker": {
+			ability: "Snow Warning",
+			item: "Life Orb",
+			nature: "Hasty",
+			evs: { at: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Earthquake", "Ice Shard"],
+		},
+		"PU Choice Scarf": {
+			ability: "Snow Warning",
+			item: "Choice Scarf",
+			nature: "Naive",
+			evs: { at: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Focus Blast", "Earthquake"],
+		},
+		"PU Swords Dance": {
+			ability: "Snow Warning",
+			item: "Grassium Z",
+			nature: "Jolly",
+			evs: { at: 252, sa: 4, sp: 252 },
+			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+		"Doubles OU Trick Room Attacker": {
+			ability: "Snow Warning",
+			item: "Abomasite",
+			nature: "Quiet",
+			ivs: { sp: 0 },
+			evs: { hp: 252, at: 4, sa: 252 },
+			moves: ["Blizzard", "Giga Drain", "Ice Shard", "Protect"],
+		},
+		"1v1 4 Attacks": {
+			ability: "Snow Warning",
+			item: "Abomasite",
+			nature: "Quiet",
+			evs: { hp: 248, df: 12, sa: 156, sd: 92 },
+			moves: ["Grass Knot", "Blizzard", "Ice Shard", "Earthquake"],
+		},
+		"Battle Spot Doubles Showdown Usage": {
+			level: 50,
+			ability: "Snow Warning",
+			item: "Abomasite",
+			nature: "Quiet",
+			evs: { hp: 204, df: 52, sa: 252 },
+			moves: ["Blizzard", "Energy Ball", "Ice Shard", "Shadow Ball"],
+		},
+	} /*
   "Abomasnow-Mega": {
     "RU Swords Dance": {"ability":"Snow Warning","item":"Abomasite","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
     "RU Mixed Attacker": {"ability":"Snow Warning","item":"Abomasite","nature":"Rash","evs":{"at":92,"sa":252,"sp":164},"moves":["Blizzard","Wood Hammer","Ice Shard","Focus Blast"]},
@@ -5016,5 +5078,5 @@ var SETDEX_SM = {
   },
   "Flarelm": {
     "CAP Showdown Usage": {"ability":"Battle Armor","item":"Eviolite","nature":"Bold","evs":{"hp":248,"df":252,"sa":8},"moves":["Synthesis","Will-O-Wisp","Leech Seed","Stealth Rock"]}
-  }
+  } */,
 };

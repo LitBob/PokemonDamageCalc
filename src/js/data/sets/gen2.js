@@ -1,5 +1,5 @@
 var SETDEX_GSC = {
-  "Ivysaur": {
+	/* "Ivysaur": {
     "ZU Swords Dance": {"item":"Leftovers","moves":["Sleep Powder","Swords Dance","Return","Giga Drain"]},
     "ZU Utility": {"item":"Leftovers","moves":["Leech Seed","Sleep Powder","Synthesis","Body Slam"]},
     "PU Showdown Usage": {"item":"Leftovers","moves":["Leech Seed","Razor Leaf","Sleep Powder","Synthesis"]}
@@ -380,11 +380,17 @@ var SETDEX_GSC = {
   "Poliwhirl": {
     "UU Belly Drum Sweeper": {"item":"Miracle Berry","moves":["Belly Drum","Return","Earthquake","Lovely Kiss"]},
     "PU Belly Drum": {"item":"Leftovers","moves":["Belly Drum","Return","Earthquake","Lovely Kiss"]}
-  },
-  "Abra": {
-    "PU Substitute": {"item":"Leftovers","moves":["Substitute","Psychic","Ice Punch","Thunder Wave"]},
-    "PU Rest Talk": {"item":"Leftovers","moves":["Psychic","Rest","Sleep Talk"]}
-  },
+  },*/
+	Abra: {
+		"PU Substitute": {
+			item: "Leftovers",
+			moves: ["Substitute", "Psychic", "Ice Punch", "Thunder Wave"],
+		},
+		"PU Rest Talk": {
+			item: "Leftovers",
+			moves: ["Psychic", "Rest", "Sleep Talk"],
+		},
+	} /*
   "Kadabra": {
     "UU Utility Attacker": {"item":"Leftovers","moves":["Psychic","Thunder Punch","Recover","Encore"]},
     "1v1 Charcoal": {"item":"Charcoal","moves":["Psychic","Ice Punch","Fire Punch","Encore"]}
@@ -950,5 +956,5 @@ var SETDEX_GSC = {
   },
   "Krabby": {
     "PU Showdown Usage": {"item":"Miracle Berry","moves":["Return","Substitute","Swords Dance","Surf"]}
-  }
+  } */,
 };

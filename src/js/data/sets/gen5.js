@@ -1,5 +1,5 @@
 var SETDEX_BW = {
-  "Ivysaur": {
+	/*   "Ivysaur": {
     "ZU Physical Wall": {"ability":"Overgrow","item":"Eviolite","nature":"Bold","evs":{"hp":252,"df":252,"sd":4},"moves":["Knock Off","Sludge Bomb","Synthesis","Giga Drain"]}
   },
   "Venusaur": {
@@ -2440,14 +2440,45 @@ var SETDEX_BW = {
   "Snover": {
     "LC Bulky Attacker": {"level":5,"ability":"Snow Warning","item":"Eviolite","nature":"Timid","evs":{"hp":36,"at":20,"df":36,"sa":180,"sd":36,"sp":196},"moves":["Blizzard","Giga Drain","Protect","Ice Shard"]},
     "LC Choice Scarf": {"level":5,"ability":"Snow Warning","item":"Choice Scarf","nature":"Timid","ivs":{"at":30,"sa":30,"sp":30},"evs":{"hp":36,"df":36,"sa":184,"sd":36,"sp":200},"moves":["Blizzard","Giga Drain","Hidden Power Fire","Ice Shard"]}
-  },
-  "Abomasnow": {
-    "OU Hail Setter": {"ability":"Snow Warning","item":"Leftovers","nature":"Modest","evs":{"hp":252,"df":68,"sa":104,"sd":84},"moves":["Blizzard","Giga Drain","Leech Seed","Protect"]},
-    "OU Mixed": {"ability":"Snow Warning","item":"Focus Sash","nature":"Mild","evs":{"at":44,"sa":252,"sp":212},"moves":["Blizzard","Wood Hammer","Focus Punch","Ice Shard"]},
-    "UU SubSeed": {"ability":"Soundproof","item":"Leftovers","nature":"Calm","evs":{"hp":248,"sd":252,"sp":8},"moves":["Substitute","Leech Seed","Ice Beam","Giga Drain"]},
-    "Doubles OU Mixed Attacker": {"ability":"Snow Warning","item":"Grass Gem","nature":"Brave","ivs":{"sp":0},"evs":{"hp":64,"at":124,"df":68,"sa":252},"moves":["Wood Hammer","Blizzard","Ice Shard","Protect"]},
-    "Monotype Snow Warning (Ice)": {"ability":"Snow Warning","item":"Leftovers","nature":"Careful","evs":{"hp":252,"sd":164,"sp":92},"moves":["Wood Hammer","Ice Shard","Protect","Leech Seed"]}
-  },
+  },*/
+	Abomasnow: {
+		"OU Hail Setter": {
+			ability: "Snow Warning",
+			item: "Leftovers",
+			nature: "Modest",
+			evs: { hp: 252, df: 68, sa: 104, sd: 84 },
+			moves: ["Blizzard", "Giga Drain", "Leech Seed", "Protect"],
+		},
+		"OU Mixed": {
+			ability: "Snow Warning",
+			item: "Focus Sash",
+			nature: "Mild",
+			evs: { at: 44, sa: 252, sp: 212 },
+			moves: ["Blizzard", "Wood Hammer", "Focus Punch", "Ice Shard"],
+		},
+		"UU SubSeed": {
+			ability: "Soundproof",
+			item: "Leftovers",
+			nature: "Calm",
+			evs: { hp: 248, sd: 252, sp: 8 },
+			moves: ["Substitute", "Leech Seed", "Ice Beam", "Giga Drain"],
+		},
+		"Doubles OU Mixed Attacker": {
+			ability: "Snow Warning",
+			item: "Grass Gem",
+			nature: "Brave",
+			ivs: { sp: 0 },
+			evs: { hp: 64, at: 124, df: 68, sa: 252 },
+			moves: ["Wood Hammer", "Blizzard", "Ice Shard", "Protect"],
+		},
+		"Monotype Snow Warning (Ice)": {
+			ability: "Snow Warning",
+			item: "Leftovers",
+			nature: "Careful",
+			evs: { hp: 252, sd: 164, sp: 92 },
+			moves: ["Wood Hammer", "Ice Shard", "Protect", "Leech Seed"],
+		},
+	} /*
   "Weavile": {
     "OU Trapper": {"ability":"Pickpocket","item":"Dread Plate","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Beat Up","Ice Shard","Low Kick"]},
     "UU Swords Dance": {"ability":"Pressure","item":"Life Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ice Shard","Night Slash","Low Kick"]},
@@ -3300,5 +3331,5 @@ var SETDEX_BW = {
   },
   "Meloetta-Pirouette": {
     "1v1 Showdown Usage": {"ability":"Serene Grace","item":"Normal Gem","nature":"Modest","evs":{"hp":108,"df":196,"sa":188,"sp":16},"moves":["Hyper Beam","Psyshock","Calm Mind","Relic Song"]}
-  }
+  } */,
 };

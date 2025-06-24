@@ -1,5 +1,5 @@
 var SETDEX_XY = {
-  "Arbok": {
+	/*  "Arbok": {
     "NU Offensive Coil": {"ability":"Intimidate","item":"Life Orb","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Coil","Gunk Shot","Earthquake","Sucker Punch"]},
     "PU Offensive Coil": {"ability":"Intimidate","item":"Black Sludge","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Coil","Gunk Shot","Earthquake","Sucker Punch"]}
   },
@@ -3281,17 +3281,68 @@ var SETDEX_XY = {
   "Snover": {
     "LC Choice Scarf": {"level":5,"ability":"Snow Warning","item":"Choice Scarf","nature":"Naive","ivs":{"df":30,"sd":30,"sp":30},"evs":{"at":104,"sa":184,"sp":200},"moves":["Blizzard","Giga Drain","Ice Shard","Hidden Power Rock"]},
     "LC Eviolite": {"level":5,"ability":"Snow Warning","item":"Eviolite","nature":"Quiet","ivs":{"df":30,"sd":30,"sp":30},"evs":{"hp":36,"at":104,"df":40,"sa":184,"sd":120},"moves":["Blizzard","Giga Drain","Ice Shard","Hidden Power Rock"]}
-  },
-  "Abomasnow": {
-    "UU Barack Aboma (Swords Dance)": {"ability":"Soundproof","item":"Abomasite","nature":"Adamant","evs":{"hp":76,"at":252,"sp":180},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
-    "UU President Snow (Mixed Attacker)": {"ability":"Soundproof","item":"Abomasite","nature":"Mild","evs":{"hp":8,"at":68,"sa":252,"sp":180},"moves":["Blizzard","Wood Hammer","Ice Shard","Earthquake"]},
-    "RU Mixed Attacker": {"ability":"Snow Warning","item":"Life Orb","nature":"Mild","evs":{"at":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Ice Shard","Focus Blast"]},
-    "NU Mixed Attacker": {"ability":"Snow Warning","item":"Life Orb","nature":"Hasty","evs":{"at":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Earthquake","Ice Shard"]},
-    "NU Swords Dance": {"ability":"Snow Warning","item":"Life Orb","nature":"Hasty","evs":{"at":252,"sa":4,"sp":252},"moves":["Swords Dance","Ice Shard","Seed Bomb","Blizzard"]},
-    "Battle Spot Doubles Trick Room Attacker": {"level":50,"ability":"Snow Warning","item":"Focus Sash","nature":"Quiet","ivs":{"sp":0},"evs":{"hp":252,"df":4,"sa":252},"moves":["Blizzard","Giga Drain","Ice Shard","Protect"]},
-    "Doubles OU Showdown Usage": {"ability":"Snow Warning","item":"Abomasite","nature":"Quiet","evs":{"hp":252,"at":4,"sa":252},"moves":["Blizzard","Protect","Giga Drain","Ice Shard"]},
-    "Battle Spot Triples Showdown Usage": {"level":50,"ability":"Snow Warning","item":"Focus Sash","nature":"Modest","evs":{"hp":252,"sa":252,"sd":4},"moves":["Blizzard","Energy Ball","Ice Beam","Water Pulse"]}
-  },
+  },*/
+	Abomasnow: {
+		"UU Barack Aboma (Swords Dance)": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Adamant",
+			evs: { hp: 76, at: 252, sp: 180 },
+			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+		"UU President Snow (Mixed Attacker)": {
+			ability: "Soundproof",
+			item: "Abomasite",
+			nature: "Mild",
+			evs: { hp: 8, at: 68, sa: 252, sp: 180 },
+			moves: ["Blizzard", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+		"RU Mixed Attacker": {
+			ability: "Snow Warning",
+			item: "Life Orb",
+			nature: "Mild",
+			evs: { at: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Ice Shard", "Focus Blast"],
+		},
+		"NU Mixed Attacker": {
+			ability: "Snow Warning",
+			item: "Life Orb",
+			nature: "Hasty",
+			evs: { at: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Earthquake", "Ice Shard"],
+		},
+		"NU Swords Dance": {
+			ability: "Snow Warning",
+			item: "Life Orb",
+			nature: "Hasty",
+			evs: { at: 252, sa: 4, sp: 252 },
+			moves: ["Swords Dance", "Ice Shard", "Seed Bomb", "Blizzard"],
+		},
+		"Battle Spot Doubles Trick Room Attacker": {
+			level: 50,
+			ability: "Snow Warning",
+			item: "Focus Sash",
+			nature: "Quiet",
+			ivs: { sp: 0 },
+			evs: { hp: 252, df: 4, sa: 252 },
+			moves: ["Blizzard", "Giga Drain", "Ice Shard", "Protect"],
+		},
+		"Doubles OU Showdown Usage": {
+			ability: "Snow Warning",
+			item: "Abomasite",
+			nature: "Quiet",
+			evs: { hp: 252, at: 4, sa: 252 },
+			moves: ["Blizzard", "Protect", "Giga Drain", "Ice Shard"],
+		},
+		"Battle Spot Triples Showdown Usage": {
+			level: 50,
+			ability: "Snow Warning",
+			item: "Focus Sash",
+			nature: "Modest",
+			evs: { hp: 252, sa: 252, sd: 4 },
+			moves: ["Blizzard", "Energy Ball", "Ice Beam", "Water Pulse"],
+		},
+	} /*
   "Abomasnow-Mega": {
     "UU Barack Aboma (Swords Dance)": {"ability":"Snow Warning","item":"Abomasite","nature":"Adamant","evs":{"hp":76,"at":252,"sp":180},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},
     "UU President Snow (Mixed Attacker)": {"ability":"Snow Warning","item":"Abomasite","nature":"Mild","evs":{"hp":8,"at":68,"sa":252,"sp":180},"moves":["Blizzard","Wood Hammer","Ice Shard","Earthquake"]},
@@ -4862,5 +4913,5 @@ var SETDEX_XY = {
   },
   "Eevee": {
     "LC Showdown Usage": {"level":5,"ability":"Adaptability","item":"Eviolite","nature":"Jolly","evs":{"at":236,"df":36,"sp":236},"moves":["Protect","Quick Attack","Return"]}
-  }
+  } */,
 };

@@ -1,5 +1,5 @@
 var SETDEX_SS = {
-  "Shiftry": {
+	/* "Shiftry": {
     "RU Sun Sweeper": {"ability":"Chlorophyll","item":"Life Orb","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Growth","Solar Blade","Knock Off","Low Kick"]},
     "PU Defog": {"ability":"Pickpocket","item":"Heavy-Duty Boots","nature":"Timid","evs":{"hp":248,"df":164,"sp":96},"moves":["Defog","Knock Off","Leaf Storm","Synthesis"]},
     "Monotype Swords Dance (Grass)": {"ability":"Chlorophyll","item":"Black Glasses","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Substitute","Knock Off","Sucker Punch"]},
@@ -1555,13 +1555,37 @@ var SETDEX_SS = {
   },
   "Snover": {
     "LC Hail Setter": {"level":5,"ability":"Snow Warning","item":"Icy Rock","nature":"Naive","evs":{"hp":36,"at":20,"df":36,"sa":180,"sd":36,"sp":196},"moves":["Blizzard","Giga Drain","Ice Shard","Protect"]}
-  },
-  "Abomasnow": {
-    "RU Hail Setter": {"ability":"Snow Warning","item":"Icy Rock","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ice Shard","Wood Hammer","Earthquake"]},
-    "PU Choice Scarf": {"ability":"Snow Warning","item":"Choice Scarf","nature":"Timid","evs":{"at":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Earth Power","Rock Slide"]},
-    "ZU Choice Specs": {"ability":"Snow Warning","item":"Choice Specs","nature":"Modest","evs":{"df":4,"sa":252,"sp":252},"moves":["Blizzard","Leaf Storm","Earth Power","Focus Blast"]},
-    "ZU Swords Dance": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]}
-  },
+  },*/
+	Abomasnow: {
+		"RU Hail Setter": {
+			ability: "Snow Warning",
+			item: "Icy Rock",
+			nature: "Adamant",
+			evs: { at: 252, sd: 4, sp: 252 },
+			moves: ["Swords Dance", "Ice Shard", "Wood Hammer", "Earthquake"],
+		},
+		"PU Choice Scarf": {
+			ability: "Snow Warning",
+			item: "Choice Scarf",
+			nature: "Timid",
+			evs: { at: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Earth Power", "Rock Slide"],
+		},
+		"ZU Choice Specs": {
+			ability: "Snow Warning",
+			item: "Choice Specs",
+			nature: "Modest",
+			evs: { df: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Leaf Storm", "Earth Power", "Focus Blast"],
+		},
+		"ZU Swords Dance": {
+			ability: "Snow Warning",
+			item: "Heavy-Duty Boots",
+			nature: "Adamant",
+			evs: { at: 252, df: 4, sp: 252 },
+			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
+		},
+	} /*
   "Weavile": {
     "OU Swords Dance": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ice Shard","Triple Axel","Knock Off"]},
     "OU Choice Band": {"ability":"Pressure","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Ice Shard","Triple Axel","Knock Off","Low Kick"]},
@@ -4171,5 +4195,5 @@ var SETDEX_SS = {
   },
   "Ralts": {
     "LC Showdown Usage": {"level":5,"ability":"Trace","item":"Eviolite","nature":"Impish","evs":{"hp":212,"df":236,"sp":36},"moves":["Knock Off","Teleport","Will-O-Wisp","Wish"]}
-  }
+  } */,
 };

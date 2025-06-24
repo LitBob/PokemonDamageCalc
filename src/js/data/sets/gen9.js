@@ -1,5 +1,5 @@
 var SETDEX_SV = {
-  "Bulbasaur": {
+	/* "Bulbasaur": {
     "LC Sun Sweeper": {"level":5,"ability":"Chlorophyll","item":"Eviolite","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":44,"sa":236,"sp":156},"moves":["Growth","Sleep Powder","Giga Drain","Weather Ball"]}
   },
   "Venusaur": {
@@ -1632,15 +1632,57 @@ var SETDEX_SV = {
   },
   "Snover": {
     "LC Snow Setter": {"level":5,"ability":"Snow Warning","item":"Icy Rock","nature":"Hasty","teraType":"Ice","evs":{"at":100,"sa":180,"sp":196},"moves":["Blizzard","Giga Drain","Ice Shard","Protect"]}
-  },
-  "Abomasnow": {
-    "NU Aurora Veil Setter": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Bold","teraType":"Water","evs":{"hp":248,"df":252,"sp":8},"moves":["Aurora Veil","Blizzard","Giga Drain","Earth Power"]},
-    "NU Special Attacker": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ground","evs":{"df":4,"sa":252,"sp":252},"moves":["Blizzard","Giga Drain","Earth Power","Leech Seed"]},
-    "PU Aurora Veil": {"ability":"Snow Warning","item":"Eject Pack","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Aurora Veil","Leaf Storm","Blizzard","Earth Power"]},
-    "Monotype Aurora Veil (Grass)": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Relaxed","evs":{"hp":248,"df":252,"sd":8},"moves":["Aurora Veil","Blizzard","Body Press","Ice Shard"]},
-    "Monotype Hail Setter (Ice)": {"ability":"Snow Warning","item":"Icy Rock","nature":"Modest","ivs":{"at":0},"evs":{"hp":40,"sa":252,"sp":216},"moves":["Aurora Veil","Blizzard","Giga Drain","Earth Power"]},
-    "ZU Aurora Veil": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Water","ivs":{"at":0},"evs":{"hp":248,"sa":252,"sd":8},"moves":["Aurora Veil","Blizzard","Giga Drain","Earth Power"]}
-  },
+  },*/
+	Abomasnow: {
+		"NU Aurora Veil Setter": {
+			ability: "Snow Warning",
+			item: "Heavy-Duty Boots",
+			nature: "Bold",
+			teraType: "Water",
+			evs: { hp: 248, df: 252, sp: 8 },
+			moves: ["Aurora Veil", "Blizzard", "Giga Drain", "Earth Power"],
+		},
+		"NU Special Attacker": {
+			ability: "Snow Warning",
+			item: "Heavy-Duty Boots",
+			nature: "Timid",
+			teraType: "Ground",
+			evs: { df: 4, sa: 252, sp: 252 },
+			moves: ["Blizzard", "Giga Drain", "Earth Power", "Leech Seed"],
+		},
+		"PU Aurora Veil": {
+			ability: "Snow Warning",
+			item: "Eject Pack",
+			nature: "Timid",
+			teraType: "Ghost",
+			evs: { df: 4, sa: 252, sp: 252 },
+			moves: ["Aurora Veil", "Leaf Storm", "Blizzard", "Earth Power"],
+		},
+		"Monotype Aurora Veil (Grass)": {
+			ability: "Snow Warning",
+			item: "Heavy-Duty Boots",
+			nature: "Relaxed",
+			evs: { hp: 248, df: 252, sd: 8 },
+			moves: ["Aurora Veil", "Blizzard", "Body Press", "Ice Shard"],
+		},
+		"Monotype Hail Setter (Ice)": {
+			ability: "Snow Warning",
+			item: "Icy Rock",
+			nature: "Modest",
+			ivs: { at: 0 },
+			evs: { hp: 40, sa: 252, sp: 216 },
+			moves: ["Aurora Veil", "Blizzard", "Giga Drain", "Earth Power"],
+		},
+		"ZU Aurora Veil": {
+			ability: "Snow Warning",
+			item: "Heavy-Duty Boots",
+			nature: "Modest",
+			teraType: "Water",
+			ivs: { at: 0 },
+			evs: { hp: 248, sa: 252, sd: 8 },
+			moves: ["Aurora Veil", "Blizzard", "Giga Drain", "Earth Power"],
+		},
+	} /*
   "Weavile": {
     "OU Boots Attacker": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Swords Dance"]},
     "OU Choice Band": {"ability":"Pressure","item":"Choice Band","nature":"Jolly","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Low Kick"]},
@@ -5268,5 +5310,5 @@ var SETDEX_SV = {
   },
   "Spidops": {
     "Almost Any Ability Showdown Usage": {"ability":"Prankster","item":"Mental Herb","nature":"Bold","evs":{"hp":248,"df":252,"sd":8},"moves":["Sticky Web","Memento","Taunt","Spikes"]}
-  }
+  } */,
 };

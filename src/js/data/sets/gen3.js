@@ -1,5 +1,5 @@
 var SETDEX_ADV = {
-  "Milotic": {
+	/*   "Milotic": {
     "OU Standard": {"ability":"Marvel Scale","item":"Leftovers","nature":"Bold","evs":{"hp":252,"df":252,"sa":4},"moves":["Surf","Recover","Toxic","Refresh"]}
   },
   "Ivysaur": {
@@ -608,15 +608,56 @@ var SETDEX_ADV = {
     "UU Sunny Day": {"ability":"Intimidate","item":"Charcoal","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"at":4,"sa":252,"sp":252},"moves":["Fire Blast","Hidden Power Grass","Sunny Day","Extreme Speed"]},
     "UU Mixed Attacker": {"ability":"Intimidate","item":"Leftovers","nature":"Naive","ivs":{"sa":30,"sd":30},"evs":{"at":80,"sa":252,"sp":176},"moves":["Fire Blast","Hidden Power Ground","Crunch","Extreme Speed"]},
     "Doubles OU Utility": {"ability":"Intimidate","item":"White Herb","nature":"Modest","ivs":{"at":30,"sa":30},"evs":{"hp":252,"df":12,"sa":32,"sd":60,"sp":152},"moves":["Overheat","Helping Hand","Hidden Power Grass","Protect"]}
-  },
-  "Abra": {
-    "NU Calm Mind": {"ability":"Synchronize","item":"Salac Berry","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Calm Mind","Psychic","Fire Punch","Substitute"]},
-    "PU Sub 3 Attacks": {"ability":"Synchronize","item":"Petaya Berry","nature":"Timid","evs":{"hp":4,"sa":252,"sp":252},"moves":["Substitute","Psychic","Thunder Punch","Fire Punch"]},
-    "PU Support": {"ability":"Synchronize","item":"Lum Berry","nature":"Timid","evs":{"df":4,"sa":252,"sp":252},"moves":["Psychic","Knock Off","Thunder Wave","Substitute"]},
-    "LC Offensive Calm Mind": {"level":5,"ability":"Synchronize","item":"Sitrus Berry","nature":"Timid","ivs":{"at":0},"evs":{"df":76,"sa":236,"sp":196},"moves":["Psychic","Substitute","Thief","Calm Mind"]},
-    "LC Bulky Calm Mind": {"level":5,"ability":"Synchronize","item":"Sitrus Berry","nature":"Timid","ivs":{"at":0},"evs":{"hp":76,"df":156,"sa":76,"sp":196},"moves":["Psychic","Substitute","Thief","Calm Mind"]},
-    "ZU Special Attacker": {"ability":"Synchronize","item":"Petaya Berry","nature":"Timid","ivs":{"at":30,"sa":30},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Calm Mind","Substitute","Psychic","Hidden Power Grass"]}
-  },
+  },*/
+	Abra: {
+		"NU Calm Mind": {
+			ability: "Synchronize",
+			item: "Salac Berry",
+			nature: "Timid",
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Calm Mind", "Psychic", "Fire Punch", "Substitute"],
+		},
+		"PU Sub 3 Attacks": {
+			ability: "Synchronize",
+			item: "Petaya Berry",
+			nature: "Timid",
+			evs: { hp: 4, sa: 252, sp: 252 },
+			moves: ["Substitute", "Psychic", "Thunder Punch", "Fire Punch"],
+		},
+		"PU Support": {
+			ability: "Synchronize",
+			item: "Lum Berry",
+			nature: "Timid",
+			evs: { df: 4, sa: 252, sp: 252 },
+			moves: ["Psychic", "Knock Off", "Thunder Wave", "Substitute"],
+		},
+		"LC Offensive Calm Mind": {
+			level: 5,
+			ability: "Synchronize",
+			item: "Sitrus Berry",
+			nature: "Timid",
+			ivs: { at: 0 },
+			evs: { df: 76, sa: 236, sp: 196 },
+			moves: ["Psychic", "Substitute", "Thief", "Calm Mind"],
+		},
+		"LC Bulky Calm Mind": {
+			level: 5,
+			ability: "Synchronize",
+			item: "Sitrus Berry",
+			nature: "Timid",
+			ivs: { at: 0 },
+			evs: { hp: 76, df: 156, sa: 76, sp: 196 },
+			moves: ["Psychic", "Substitute", "Thief", "Calm Mind"],
+		},
+		"ZU Special Attacker": {
+			ability: "Synchronize",
+			item: "Petaya Berry",
+			nature: "Timid",
+			ivs: { at: 30, sa: 30 },
+			evs: { sa: 252, sd: 4, sp: 252 },
+			moves: ["Calm Mind", "Substitute", "Psychic", "Hidden Power Grass"],
+		},
+	} /*
   "Machop": {
     "LC Offensive": {"level":5,"ability":"Guts","item":"Sitrus Berry","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"hp":116,"at":116,"df":120,"sd":80,"sp":76},"moves":["Substitute","Hidden Power Ghost","Cross Chop","Rock Slide"]}
   },
@@ -1579,5 +1620,5 @@ var SETDEX_ADV = {
   },
   "Ralts": {
     "LC Showdown Usage": {"level":5,"ability":"Trace","item":"Sitrus Berry","nature":"Bold","evs":{"hp":212,"df":236,"sp":36},"moves":["Reflect","Memento","Growl","Icy Wind"]}
-  }
+  } */,
 };
