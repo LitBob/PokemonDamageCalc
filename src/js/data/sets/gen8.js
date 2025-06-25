@@ -1564,7 +1564,7 @@ var SETDEX_SS = {
 			evs: { at: 252, sd: 4, sp: 252 },
 			moves: ["Swords Dance", "Ice Shard", "Wood Hammer", "Earthquake"],
 		},
-		"PU Choice Scarf": {
+		/* "PU Choice Scarf": {
 			ability: "Snow Warning",
 			item: "Choice Scarf",
 			nature: "Timid",
@@ -1584,7 +1584,7 @@ var SETDEX_SS = {
 			nature: "Adamant",
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
-		},
+		}, */
 	} /*
   "Weavile": {
     "OU Swords Dance": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Ice Shard","Triple Axel","Knock Off"]},

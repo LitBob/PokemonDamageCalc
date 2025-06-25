@@ -2449,7 +2449,7 @@ var SETDEX_BW = {
 			evs: { hp: 252, df: 68, sa: 104, sd: 84 },
 			moves: ["Blizzard", "Giga Drain", "Leech Seed", "Protect"],
 		},
-		"OU Mixed": {
+		/* "OU Mixed": {
 			ability: "Snow Warning",
 			item: "Focus Sash",
 			nature: "Mild",
@@ -2477,7 +2477,7 @@ var SETDEX_BW = {
 			nature: "Careful",
 			evs: { hp: 252, sd: 164, sp: 92 },
 			moves: ["Wood Hammer", "Ice Shard", "Protect", "Leech Seed"],
-		},
+		}, */
 	} /*
   "Weavile": {
     "OU Trapper": {"ability":"Pickpocket","item":"Dread Plate","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Beat Up","Ice Shard","Low Kick"]},

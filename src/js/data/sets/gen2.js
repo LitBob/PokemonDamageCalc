@@ -386,10 +386,10 @@ var SETDEX_GSC = {
 			item: "Leftovers",
 			moves: ["Substitute", "Psychic", "Ice Punch", "Thunder Wave"],
 		},
-		"PU Rest Talk": {
+		/* "PU Rest Talk": {
 			item: "Leftovers",
 			moves: ["Psychic", "Rest", "Sleep Talk"],
-		},
+		}, */
 	} /*
   "Kadabra": {
     "UU Utility Attacker": {"item":"Leftovers","moves":["Psychic","Thunder Punch","Recover","Encore"]},

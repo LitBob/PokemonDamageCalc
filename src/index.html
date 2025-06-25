@@ -141,11 +141,11 @@
     <div aria-label="Pok&eacute;mon 1" class="panel" role="region">
         <fieldset class="poke-info" id="p1">
             <legend align="center">Pok&eacute;mon 1</legend>
-            <input type="text" class="set-selector calc-trigger" />
-            <span id="importedSetsOptions" style="width:auto; display:none">
+            <input type="text" class="set-selector calc-trigger player" />
+            <!-- <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
-            </span>
+            </span> -->
             <div class="info-group top">
                 <div>
                     <label>Type</label>
@@ -683,6 +683,33 @@
                     <option value="5">5 times</option>
                 </select>
             </div>
+
+            <div class="trainer-poks trainer-poks-left">
+                    
+                        <div aria-label="trainer-poks" role="region">
+                            <div>
+                                <div id="team-poke-list" class="team-box player-poks dropzone">
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div id="box-poke-list" class="box-poke player-poks box-poke dropzone">
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div id="box-poke-list2" class="box-poke player-poks box-poke2 dropzone">
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <div id="trash-box" class="box-poke player-poks box-poke-trash dropzone">
+                                </div>
+                            <hr>
+                            <button class="deadzone btn" id="trash-pok">Remove Pokémon from the trash</button>
+                            <button class="deadzone btn" id="clearSets">Remove Pokémon from all boxes</button>
+                    </div>
+
         </fieldset>
     </div>
 
@@ -1070,10 +1097,10 @@
         <fieldset class="poke-info" id="p2">
             <legend align="center">Pok&eacute;mon 2</legend>
             <input type="text" class="set-selector calc-trigger" />
-            <span id="importedSetsOptions" style="width:auto; display:none">
+            <!-- <span id="importedSetsOptions" style="width:auto; display:none">
                 <input type="checkbox" id="importedSets" /> Only show imported sets <br />
                 <button id="clearSets">Clear Imported Sets</button>
-            </span>
+            </span> -->
             <div class="info-group top">
                 <div>
                     <label>Type</label>

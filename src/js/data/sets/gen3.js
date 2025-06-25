@@ -617,7 +617,7 @@ var SETDEX_ADV = {
 			evs: { hp: 4, sa: 252, sp: 252 },
 			moves: ["Calm Mind", "Psychic", "Fire Punch", "Substitute"],
 		},
-		"PU Sub 3 Attacks": {
+		/* "PU Sub 3 Attacks": {
 			ability: "Synchronize",
 			item: "Petaya Berry",
 			nature: "Timid",
@@ -656,7 +656,7 @@ var SETDEX_ADV = {
 			ivs: { at: 30, sa: 30 },
 			evs: { sa: 252, sd: 4, sp: 252 },
 			moves: ["Calm Mind", "Substitute", "Psychic", "Hidden Power Grass"],
-		},
+		}, */
 	} /*
   "Machop": {
     "LC Offensive": {"level":5,"ability":"Guts","item":"Sitrus Berry","nature":"Adamant","ivs":{"df":30,"sd":30},"evs":{"hp":116,"at":116,"df":120,"sd":80,"sp":76},"moves":["Substitute","Hidden Power Ghost","Cross Chop","Rock Slide"]}

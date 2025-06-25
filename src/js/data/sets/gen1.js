@@ -232,13 +232,13 @@ var SETDEX_RBY = {
 		"NU Special Attacker": {
 			moves: ["Psychic", "Thunder Wave", "Seismic Toss", "Counter"],
 		},
-		"PU Special Attacker": {
+		/* "PU Special Attacker": {
 			moves: ["Psychic", "Seismic Toss", "Thunder Wave", "Substitute"],
 		},
 		"LC Mixed Attacker": {
 			level: 5,
 			moves: ["Psychic", "Body Slam", "Thunder Wave", "Substitute"],
-		},
+		}, */
 	} /*
   "Kadabra": {
     "UU Standard": {"moves":["Psychic","Thunder Wave","Seismic Toss","Recover"]}

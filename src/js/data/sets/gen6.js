@@ -3290,7 +3290,7 @@ var SETDEX_XY = {
 			evs: { hp: 76, at: 252, sp: 180 },
 			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
 		},
-		"UU President Snow (Mixed Attacker)": {
+		/* "UU President Snow (Mixed Attacker)": {
 			ability: "Soundproof",
 			item: "Abomasite",
 			nature: "Mild",
@@ -3341,7 +3341,7 @@ var SETDEX_XY = {
 			nature: "Modest",
 			evs: { hp: 252, sa: 252, sd: 4 },
 			moves: ["Blizzard", "Energy Ball", "Ice Beam", "Water Pulse"],
-		},
+		}, */
 	} /*
   "Abomasnow-Mega": {
     "UU Barack Aboma (Swords Dance)": {"ability":"Snow Warning","item":"Abomasite","nature":"Adamant","evs":{"hp":76,"at":252,"sp":180},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},

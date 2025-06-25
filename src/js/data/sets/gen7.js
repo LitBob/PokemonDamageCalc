@@ -2874,7 +2874,7 @@ var SETDEX_SM = {
 			evs: { at: 252, df: 4, sp: 252 },
 			moves: ["Swords Dance", "Wood Hammer", "Ice Shard", "Earthquake"],
 		},
-		"RU Mixed Attacker": {
+		/* "RU Mixed Attacker": {
 			ability: "Soundproof",
 			item: "Abomasite",
 			nature: "Rash",
@@ -2938,7 +2938,7 @@ var SETDEX_SM = {
 			nature: "Quiet",
 			evs: { hp: 204, df: 52, sa: 252 },
 			moves: ["Blizzard", "Energy Ball", "Ice Shard", "Shadow Ball"],
-		},
+		}, */
 	} /*
   "Abomasnow-Mega": {
     "RU Swords Dance": {"ability":"Snow Warning","item":"Abomasite","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Wood Hammer","Ice Shard","Earthquake"]},

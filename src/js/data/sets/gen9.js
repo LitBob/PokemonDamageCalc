@@ -1642,7 +1642,7 @@ var SETDEX_SV = {
 			evs: { hp: 248, df: 252, sp: 8 },
 			moves: ["Aurora Veil", "Blizzard", "Giga Drain", "Earth Power"],
 		},
-		"NU Special Attacker": {
+		/* "NU Special Attacker": {
 			ability: "Snow Warning",
 			item: "Heavy-Duty Boots",
 			nature: "Timid",
@@ -1681,7 +1681,7 @@ var SETDEX_SV = {
 			ivs: { at: 0 },
 			evs: { hp: 248, sa: 252, sd: 8 },
 			moves: ["Aurora Veil", "Blizzard", "Giga Drain", "Earth Power"],
-		},
+		}, */
 	} /*
   "Weavile": {
     "OU Boots Attacker": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Swords Dance"]},

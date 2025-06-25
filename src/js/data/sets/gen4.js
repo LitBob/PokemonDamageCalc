@@ -2353,7 +2353,7 @@ var SETDEX_DPP = {
 			evs: { hp: 252, at: 252, sd: 4 },
 			moves: ["Leech Seed", "Protect", "Wood Hammer", "Ice Shard"],
 		},
-		"OU All-out Attacker": {
+		/* "OU All-out Attacker": {
 			ability: "Snow Warning",
 			item: "Leftovers",
 			nature: "Lonely",
@@ -2373,7 +2373,7 @@ var SETDEX_DPP = {
 			nature: "Sassy",
 			evs: { hp: 252, at: 20, sd: 236 },
 			moves: ["Leech Seed", "Grass Knot", "Ice Shard", "Protect"],
-		},
+		}, */
 	} /*
   "Weavile": {
     "OU Standard": {"ability":"Pressure","item":"Expert Belt","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Pursuit","Ice Shard","Low Kick","Night Slash"]}
