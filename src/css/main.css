@@ -43,7 +43,7 @@ header {
 	padding: 0;
 }
 .nav-wrapper .nav {
-	padding-left: 140px;
+	padding-left: 245px;
 	padding-top: 5px;
 }
 .nav li {
@@ -859,4 +859,40 @@ table.field {
 	left: 50%;
 	transform: translateX(-50%);
 	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Custom boxes buttons CSS */
+
+/* Improved normal button */
+.improved-btn {
+	background: linear-gradient(to bottom, #f0f0f0, #c0c0c0);
+	color: #222;
+	border: 1px solid #888;
+	text-shadow: 0 1px 0 #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	padding: 6px 14px;
+	font-weight: bold;
+	transition: background 0.2s, box-shadow 0.2s;
+}
+
+.improved-btn:hover {
+	background: linear-gradient(to bottom, #e2e2e2, #b0b0b0);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Danger-style button */
+.btn-danger {
+	background: linear-gradient(to bottom, #e74c3c, #c0392b);
+	color: white;
+	border: 1px solid #922b21;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	padding: 6px 14px;
+	font-weight: bold;
+	transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn-danger:hover {
+	background: linear-gradient(to bottom, #ff6655, #aa2b1d);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 }

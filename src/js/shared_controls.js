@@ -2329,6 +2329,8 @@ function refreshAfterImport() {
 		? JSON.parse(localStorage.customsets)
 		: {};
 
+	console.log("Refreshing after import, customSets:", customSets);
+
 	// Merge newPokemons with existing customSets
 	Object.assign(customSets, newPokemons);
 
@@ -2389,13 +2391,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 		var box = [];
 
 		console.log("get_box called with customsets:", customsets);
-		console.log("length of customsets:", customsets[1]);
 
 		// Object to keep track of encountered custom entries
 		var encounteredCustom = {};
 
 		// Clear the content of the default div
 		document.getElementById("box-poke-list").innerHTML = "";
+
+		customSetCounter = 0; // Reset the custom set counter
 
 		Object.keys(customsets).forEach(function (setName) {
 			console.log("Processing setName:", setName);
@@ -2431,12 +2434,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 				// Create the Pokémon sprite HTML
 				var pok = document.createElement("img");
-				pok.id = `pok-${i}`;
+				pok.id = `pok-${customSetCounter}`;
 				pok.className = "trainer-pok left-side flipped-image draggable-pok";
 				pok.src = `https://raw.githubusercontent.com/KinglerChamp/Sprites-for-calc/master/${pok_name}.png`;
 				pok.setAttribute("draggable", "true");
 				pok.dataset.id = `${customName} (Custom Set)`;
 				pok.title = `${customName} (Custom Set)`;
+
+				customSetCounter += 1; // Increment the custom set counter
 
 				// Add dragstart event listener
 				pok.addEventListener("dragstart", dragStart);

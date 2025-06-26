@@ -309,11 +309,12 @@ function addSets(pokes, name) {
 				);
 				currentPoke.name = currentRow[j].trim();
 				currentPoke.item = getItem(currentRow, j + 1);
-				if (j === 1 && currentRow[0].trim()) {
+				currentPoke.nameProp = "Custom Set"; // Force set to always be "Custom Set"
+				/* if (j === 1 && currentRow[0].trim()) {
 					currentPoke.nameProp = currentRow[0].trim();
 				} else {
 					currentPoke.nameProp = name;
-				}
+				} */
 				currentPoke.isCustomSet = true;
 				currentPoke.ability = getAbility(rows[i + 1].split(":"));
 				currentPoke.teraType = getTeraType(rows[i + 1].split(":"));
@@ -324,7 +325,14 @@ function addSets(pokes, name) {
 			}
 		}
 	}
-	if (addedpokes == 1) {
+	if (addedpokes > 0) {
+		console.log("Successfully imported " + addedpokes + " set(s)."); // Debugging
+		alert("Successfully imported " + addedpokes + " set(s). Refreshing...");
+		setTimeout(() => location.reload(), 250); // Refresh with a slight delay
+	} else {
+		alert("No sets imported, please check your syntax and try again");
+	}
+	/* if (addedpokes == 1) {
 		alert("Successfully imported 1 set");
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else if (addedpokes > 1) {
@@ -332,7 +340,7 @@ function addSets(pokes, name) {
 		$(allPokemon("#importedSetsOptions")).css("display", "inline");
 	} else {
 		alert("No sets imported, please check your syntax and try again");
-	}
+	} */
 }
 
 function checkExeptions(poke) {
@@ -392,7 +400,8 @@ $(allPokemon("#clearSets")).click(function () {
 	) {
 		localStorage.removeItem("customsets");
 		alert("Custom Sets successfully cleared. Please refresh the page.");
-		$(allPokemon("#importedSetsOptions")).hide();
+		setTimeout(() => location.reload(), 250); // Refresh with a slight delay
+		/* $(allPokemon("#importedSetsOptions")).hide(); */
 		loadDefaultLists();
 	}
 });
@@ -418,6 +427,7 @@ $(document).ready(function () {
 		loadDefaultLists();
 	}
 
+	// I added the code below
 	// Add this for the "Get Moves" button
 	$("#getMoves").click(function () {
 		console.log("Get Moves button pressed!");
