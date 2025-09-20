@@ -141,6 +141,57 @@
             </div>
         </div>
     </div>
+    <script>
+  function checkAllForBide() {
+    const specialWords = ["Bide", "Counter", "Mirror Coat", "Metal Burst", "Revenge", "Payback", "Retaliate", "Super Fang", "Comeuppance", "Fissure", "Guillotine", "Horn Drill", "Sheer Cold", "Destiny Bond"];
+
+    const labels = document.querySelectorAll('.move-result-subgroup label');
+
+    labels.forEach(label => {
+      if (specialWords.includes(label.textContent.trim())) {
+        label.classList.add("highlight-bide");
+      } else {
+        label.classList.remove("highlight-bide");
+      }
+    });
+  }
+
+  // Run once on page load
+  checkAllForBide();
+
+  // Watch for changes in *all* labels inside .move-result-subgroup
+  const subgroup = document.querySelector('.move-result-subgroup');
+  const observer = new MutationObserver(checkAllForBide);
+  observer.observe(subgroup, { childList: true, characterData: true, subtree: true });
+</script>
+    <!-- <script>
+        // List of words to highlight (case-sensitive)
+        const specialWords = ["Bide"];
+
+        function checkAllForSpecialText() {
+            const labels = document.querySelectorAll('.move-result-subgroup label');
+            const spans = document.querySelectorAll('.move-result-subgroup span');
+
+            // Check labels
+            labels.forEach(label => {
+            if (specialWords.includes(label.textContent.trim())) {
+                label.classList.add("highlight-special");
+                span.classList.add("highlight-special");
+            } else {
+                label.classList.remove("highlight-special");
+                span.classList.remove("highlight-special");
+            }
+            });
+        }
+
+        // Run once on page load
+        checkAllForSpecialText();
+
+        // Watch for dynamic changes
+        const subgroup = document.querySelector('.move-result-subgroup');
+        const observer = new MutationObserver(checkAllForSpecialText);
+        observer.observe(subgroup, { childList: true, characterData: true, subtree: true });
+    </script> -->
     <div aria-label="Calculation results" class="main-result-group" role="region">
         <div class="big-text">
             <span id="mainResult" title="Click to copy.">Loading...</span>

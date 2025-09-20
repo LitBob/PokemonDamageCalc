@@ -896,3 +896,8 @@ table.field {
 	background: linear-gradient(to bottom, #ff6655, #aa2b1d);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 }
+
+.highlight-bide {
+	font-weight: bold;
+	background: #ff6655;
+}
